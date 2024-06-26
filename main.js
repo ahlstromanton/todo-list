@@ -27,3 +27,12 @@ function addNewItem() {
     // Clear the input field
     document.getElementById("new-item").value = "";
 }
+
+function toggleComplete(checkbox) {
+    const label = checkbox.nextElementSibling;
+    if (checkbox.checked) {
+        label.classList.add("completed");
+    } else {
+        label.classList.remove("completed");
+    }
+}
