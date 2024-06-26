@@ -1,0 +1,59 @@
+:root {
+    --main-bg-color: #335C67;
+    --card-bg-color-primary: #540B0E;
+    --card-bg-color-secondary: #9E2A2B;
+    --primary-text-color: #FFF3B0;
+    --secondary-text-color: #E09F3E;
+}
+
+
+body {
+    background-color: var(--main-bg-color);
+    color: var(--primary-text-color);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#card {
+    height: 50px;
+    width: 50%;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: var(--card-bg-color-primary);
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+
+#todo-container {
+    
+}
+
+#complete-box {
+    margin: 0 10px 0 0;
+}
+
+#new-item {
+    color: var(--primary-text-color);
+    background-color: var(--card-bg-color-secondary);
+    margin-top: 10px;
+    width: 40%;
+    padding: 10px;
+}
+
+#new-item::placeholder {
+    color: var(--secondary-text-color);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* 
+Color scheme:
+
+https://coolors.co/palette/335c67-fff3b0-e09f3e-9e2a2b-540b0e
+
+#335C67
+#FFF3B0
+#E09F3E
+#9E2A2B
+#540B0E
+*/

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo list</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <h1>Todo list</h1>
+    <div id="todo-container">
+        <div id="card" class="card">
+            <input type="checkbox" id="complete-box-1" value="off">
+            <label for="complete-box-1">Item 1</label>
+        </div>
+        <div id="input-field">
+            <input type="text" name="new-item" id="new-item" placeholder="Enter new item...">
+            <button type="submit" onclick="addNewItem()">Add item</button>
+        </div>
+    </div>
+</body>
+</html>
